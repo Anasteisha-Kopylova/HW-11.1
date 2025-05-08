@@ -1,0 +1,27 @@
+h1 {
+    margin: 20px auto;
+    text-align: center;
+    color: #000000;
+    text-shadow: 1px 1px 2px #fcef3b;
+}
+
+table {
+      border-collapse: collapse;
+      margin: 0 auto;
+    }
+    td, th {
+      border: 1px solid #000000;
+      padding: 8px 12px;
+      text-align: center;
+    }
+
+th:first-child,
+tr:first-child {
+  background-color: #fcef3b;
+  font-weight: bold;
+}    
+
+.diagonal {
+    background-color: #000000;
+    color: #fcef3b;
+}
